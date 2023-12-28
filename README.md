@@ -85,12 +85,57 @@
 
 ## Input Data
 
+#### 항공영상
+- 1024 * 1024 * 3 크기의 tif 포맷 이미지
+
+![항공영상 input](./images/AP_HR_2021_0172_07_input.png)
+
+
+#### 위성이미지
+- 128 * 128 * 3 크기의 tif 포맷 이미지
+
+![위성이미지 input](./images/OS_HR_20210303_0225_input.png)
+
+#### 위성SAR
+- 128 * 128 * 3 크기의 tif 포맷 이미지
+
+![위성SAR input](./images/SS_HR_20210305_0236_input.png)
 
 ## Output Data
 
+#### 항공영상
+- 1024 * 1024 * 3 크기의 tif 포맷 이미지
+
+![항공영상 output](./images/AP_HR_2021_0172_07_output.png)
+
+#### 위성이미지
+- 128 * 128 * 3 크기의 tif 포맷 이미지
+
+![위성이미지 output](./images/OS_HR_20210303_0225_output.png)
+
+#### 위성SAR
+- 128 * 128 * 3 크기의 tif 포맷 이미지
+
+![위성SAR output](./images/SS_HR_20210305_0236_output.png)
+
 ## Training Dataset
+
+- 1024 * 1024 크기의 tif 포맷 항공 영상 및 6개 클래스에 대한 segmentation이 포함된 geojson 24,000 쌍 이상
+- 128 * 128 크기의 tif 포맷 항공 영상 및 1개 클래스에 대한 segmentation이 포함된 geojson 24,000 쌍 이상
+- 128 * 128 크기의 tif 포맷 항공 영상 및 1개 클래스에 대한 segmentation이 포함된 geojson 12,000 쌍 이상
+
 
 ## Training Parameters
 
+- batch_size = 8
+- epochs for 항공영상 = 30
+- epochs for 위성이미지 & 위성SAR = 50
+- Training:Valid:Test = 8:1:1
+
 ## Evaluation Metric
+
+- Overall Pixel Accuracy
+- 올바르게 분류한 픽셀 수(True positives, n_ii)를 i개의 클래스로 구성된 전체 이미지 픽셀 수로 나눈 값(t_i)
+
+![Overall Pixel Accuracy](images/eval_metric.png)
 
