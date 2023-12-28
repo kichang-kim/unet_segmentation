@@ -1,0 +1,1 @@
+sudo docker run -v /home/innonew-train01/kc/dataset64_segmentation_docker:/workspace/unet:rw --shm-size=8g --ulimit memlock=-1 --gpus all --name innodep_unet -it milesial/unet

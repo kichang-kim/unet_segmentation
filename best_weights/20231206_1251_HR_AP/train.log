@@ -1,0 +1,70 @@
+2023-12-06 12:51:34,311 Starting training:
+        Data Root:       /workspace/unet/data_HR/AP
+        Epochs:          30
+        Batch size:      8
+        Learning rate:   0.001
+        Training size:   19200
+        Validation size: 2400
+        Device:          cuda
+        Images scaling:  0.5
+    
+2023-12-06 13:55:56,066 Epoch: 1, Loss: 0.420, Pixel Accuracy:  0.8818
+2023-12-06 13:55:56,303 Checkpoint 1 saved !
+2023-12-06 15:01:18,744 Epoch: 2, Loss: 0.445, Pixel Accuracy:  0.8681
+2023-12-06 15:01:18,862 Checkpoint 2 saved !
+2023-12-06 16:06:54,441 Epoch: 3, Loss: 0.432, Pixel Accuracy:  0.8696
+2023-12-06 16:06:54,547 Checkpoint 3 saved !
+2023-12-06 17:08:13,892 Epoch: 4, Loss: 0.404, Pixel Accuracy:  0.8829
+2023-12-06 17:08:14,092 Checkpoint 4 saved !
+2023-12-06 17:51:17,327 Epoch: 5, Loss: 0.456, Pixel Accuracy:  0.8447
+2023-12-06 17:51:17,436 Checkpoint 5 saved !
+2023-12-06 18:34:12,891 Epoch: 6, Loss: 0.386, Pixel Accuracy:  0.8906
+2023-12-06 18:34:13,109 Checkpoint 6 saved !
+2023-12-06 19:15:57,194 Epoch: 7, Loss: 0.354, Pixel Accuracy:  0.8921
+2023-12-06 19:15:57,366 Checkpoint 7 saved !
+2023-12-06 19:33:20,044 Epoch: 8, Loss: 0.333, Pixel Accuracy:  0.8979
+2023-12-06 19:33:20,218 Checkpoint 8 saved !
+2023-12-06 19:50:41,173 Epoch: 9, Loss: 0.366, Pixel Accuracy:  0.8936
+2023-12-06 19:50:41,339 Checkpoint 9 saved !
+2023-12-06 20:08:01,506 Epoch: 10, Loss: 0.318, Pixel Accuracy:  0.9015
+2023-12-06 20:08:01,681 Checkpoint 10 saved !
+2023-12-06 20:25:21,728 Epoch: 11, Loss: 0.476, Pixel Accuracy:  0.8313
+2023-12-06 20:25:21,821 Checkpoint 11 saved !
+2023-12-06 20:42:40,273 Epoch: 12, Loss: 0.405, Pixel Accuracy:  0.8806
+2023-12-06 20:42:40,363 Checkpoint 12 saved !
+2023-12-06 20:59:55,330 Epoch: 13, Loss: 0.387, Pixel Accuracy:  0.8801
+2023-12-06 20:59:55,425 Checkpoint 13 saved !
+2023-12-06 21:17:12,085 Epoch: 14, Loss: 0.318, Pixel Accuracy:  0.8946
+2023-12-06 21:17:12,183 Checkpoint 14 saved !
+2023-12-06 21:34:29,437 Epoch: 15, Loss: 0.342, Pixel Accuracy:  0.8849
+2023-12-06 21:34:29,532 Checkpoint 15 saved !
+2023-12-06 21:51:45,941 Epoch: 16, Loss: 0.328, Pixel Accuracy:  0.8946
+2023-12-06 21:51:46,037 Checkpoint 16 saved !
+2023-12-06 22:09:05,297 Epoch: 17, Loss: 0.459, Pixel Accuracy:  0.8362
+2023-12-06 22:09:05,391 Checkpoint 17 saved !
+2023-12-06 22:26:21,368 Epoch: 18, Loss: 0.322, Pixel Accuracy:  0.8934
+2023-12-06 22:26:21,461 Checkpoint 18 saved !
+2023-12-06 22:43:34,859 Epoch: 19, Loss: 0.412, Pixel Accuracy:  0.8710
+2023-12-06 22:43:34,950 Checkpoint 19 saved !
+2023-12-06 23:00:50,946 Epoch: 20, Loss: 0.477, Pixel Accuracy:  0.8405
+2023-12-06 23:00:51,042 Checkpoint 20 saved !
+2023-12-06 23:18:03,928 Epoch: 21, Loss: 0.319, Pixel Accuracy:  0.9001
+2023-12-06 23:18:04,021 Checkpoint 21 saved !
+2023-12-06 23:35:18,391 Epoch: 22, Loss: 0.397, Pixel Accuracy:  0.8651
+2023-12-06 23:35:18,486 Checkpoint 22 saved !
+2023-12-06 23:52:28,557 Epoch: 23, Loss: 0.367, Pixel Accuracy:  0.8820
+2023-12-06 23:52:28,652 Checkpoint 23 saved !
+2023-12-07 00:09:42,612 Epoch: 24, Loss: 0.893, Pixel Accuracy:  0.6998
+2023-12-07 00:09:42,712 Checkpoint 24 saved !
+2023-12-07 00:26:53,464 Epoch: 25, Loss: 0.292, Pixel Accuracy:  0.9061
+2023-12-07 00:26:53,562 Checkpoint 25 saved !
+2023-12-07 00:44:03,773 Epoch: 26, Loss: 0.409, Pixel Accuracy:  0.8634
+2023-12-07 00:44:03,864 Checkpoint 26 saved !
+2023-12-07 01:01:18,572 Epoch: 27, Loss: 0.370, Pixel Accuracy:  0.8807
+2023-12-07 01:01:18,661 Checkpoint 27 saved !
+2023-12-07 01:18:35,922 Epoch: 28, Loss: 0.375, Pixel Accuracy:  0.8749
+2023-12-07 01:18:36,010 Checkpoint 28 saved !
+2023-12-07 01:36:25,798 Epoch: 29, Loss: 0.554, Pixel Accuracy:  0.7479
+2023-12-07 01:36:25,891 Checkpoint 29 saved !
+2023-12-07 01:54:05,378 Epoch: 30, Loss: 0.304, Pixel Accuracy:  0.9074
+2023-12-07 01:54:05,470 Checkpoint 30 saved !
